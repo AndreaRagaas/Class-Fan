@@ -41,3 +41,7 @@ class TestFan (Fan):
 
         separator = tk.Label(self.window, text="\n")
         separator.pack()
+
+# Create an instance to run the test program
+if __name__ == "__main__":
+    test = TestFan()
