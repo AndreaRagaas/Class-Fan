@@ -10,3 +10,7 @@ class TestFan (Fan):
     def __init__(self):
         self.window = tk.Tk()
         self.window.title("FAN")
+
+        # Creating two Fan objects
+        fan1 = Fan(speed=Fan.FAST, radius=10, color='yellow', on=True)
+        fan2 = Fan(speed=Fan.MEDIUM, radius=5, color='blue', on=False)
